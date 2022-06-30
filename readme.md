@@ -18,7 +18,7 @@ sudo apt-get install dotnet-sdk-6.0
 
 Você precisará de acesso SSH à máquina virtual e permissões de raiz. Em primeiro lugar, vamos atualizar o VM e instalar o software mínimo necessário. 
 
-<code>sudo apt update </code>
+<pre<code>sudo apt update </code></pre>
 
 sudo apt -y upgrade
 
