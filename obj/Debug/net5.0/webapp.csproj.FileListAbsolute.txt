@@ -22,7 +22,6 @@ D:\Programing\.NET\webapp\obj\Debug\net5.0\webapp.TagHelpers.input.cache
 D:\Programing\.NET\webapp\obj\Debug\net5.0\webapp.TagHelpers.output.cache
 D:\Programing\.NET\webapp\obj\Debug\net5.0\webapp.RazorCoreGenerate.cache
 D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -42,3 +41,4 @@ D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Educacao.cshtml.g.cs
 D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Habilidades.cshtml.g.cs
 D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Projetos.cshtml.g.cs
 D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Experiencias.cshtml.g.cs
+D:\Programing\.NET\webapp\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
