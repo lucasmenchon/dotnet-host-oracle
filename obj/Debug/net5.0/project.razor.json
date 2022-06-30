@@ -16,23 +16,28 @@
   "RootNamespace": "webapp",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Educacao.cshtml",
-      "TargetPath": "Pages\\Educacao.cshtml",
+      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Habilidades.cshtml",
-      "TargetPath": "Pages\\Habilidades.cshtml",
+      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
+      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Projetos.cshtml",
+      "TargetPath": "Pages\\Projetos.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Contato.cshtml",
       "TargetPath": "Pages\\Contato.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Educacao.cshtml",
+      "TargetPath": "Pages\\Educacao.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -46,13 +51,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -61,18 +66,13 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Habilidades.cshtml",
+      "TargetPath": "Pages\\Habilidades.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Projetos.cshtml",
-      "TargetPath": "Pages\\Projetos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Lucas\\source\\repos\\webapp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
