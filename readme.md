@@ -112,35 +112,25 @@ Crie um arquivo de serviço:
 Copie e cole este codigo com informações de seu app:
 
 <hr>
-[Unit]
 
-Description= nome_app
+<pre class="wp-block-code"><code>[Unit]
+Description=&lt;App Nome&gt;
 
 [Service]
-
-WorkingDirectory=/var/www/<app\_diretorio>
-
-ExecStart=/usr/bin/dotnet /var/www/<app\_diretorio>/<app\_nome>.dll
-
+WorkingDirectory=/var/www/&lt;app_diretorio&gt;
+ExecStart=/usr/bin/dotnet /var/www/&lt;app_diretorio&gt;/&lt;app_nome&gt;.dll
 Restart=always
-
-\# Restart service after 10 seconds if the dotnet service crashes:
-
+# Restart service after 10 seconds if the dotnet service crashes:
 RestartSec=10
-
 KillSignal=SIGINT
-
 SyslogIdentifier=dotnet-example
-
 User=www-data
-
-Environment=ASPNETCORE\_ENVIRONMENT=Production
-
-Environment=DOTNET\_PRINT\_TELEMETRY\_MESSAGE=false
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
 
 [Install]
+WantedBy=multi-user.target</code></pre>
 
-WantedBy=multi-user.target
 <hr>
 Salve o arquivo do que ativar e iniciar o serviço: 
 
