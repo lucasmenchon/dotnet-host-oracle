@@ -63,33 +63,22 @@ Se você quiser obter mais detalhes sobre o que é proxy reverso e por que preci
 
 Adicione o seguinte codigo: 
 <hr>
-server {
 
-`    `listen        80;
+<pre><code>server {
+    listen        80;
+    server_name   seu_dominio;
+    location / {
+        proxy_pass         http://localhost:5000;
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection keep-alive;
+        proxy_set_header   Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+    }
+}</code></pre>
 
-`    `server\_name  SEU\_DOMINIO;
-
-`    `location / {
-
-`        `proxy\_pass         http://localhost:5000;
-
-`        `proxy\_http\_version 1.1;
-
-`        `proxy\_set\_header   Upgrade $http\_upgrade;
-
-`        `proxy\_set\_header   Connection keep-alive;
-
-`        `proxy\_set\_header   Host $host;
-
-`        `proxy\_cache\_bypass $http\_upgrade;
-
-`        `proxy\_set\_header   X-Forwarded-For $proxy\_add\_x\_forwarded\_for;
-
-`        `proxy\_set\_header   X-Forwarded-Proto $scheme;
-
-`    `}
-
-` `}
 <hr>
 Salve o arquivo e verifique a sintaxe com o seguinte comando: 
 
