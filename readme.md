@@ -58,8 +58,8 @@ Se você quiser obter mais detalhes sobre o que é proxy reverso e por que preci
 
 nano /etc/nginx/sites-available/default
 
-Adicione o seguinte código: 
-
+Adicione o seguinte codigo: 
+<hr>
 server {
 
 `    `listen        80;
@@ -87,7 +87,7 @@ server {
 `    `}
 
 }
-
+<hr>
 Salve o arquivo e verifique a sintaxe com o seguinte comando: 
 
 sudo nginx -t
@@ -116,8 +116,8 @@ Crie um arquivo de serviço:
 
 sudo nano /etc/systemd/system/kestrel-<seu\_app>.service
 
-Cole o código de follwing: 
-
+Copie e cole este codigo com informações de seu app:
+<hr>
 [Unit]
 
 Description=<Nome App>
@@ -147,7 +147,7 @@ Environment=DOTNET\_PRINT\_TELEMETRY\_MESSAGE=false
 [Install]
 
 WantedBy=multi-user.target
-
+<hr>
 Salve o arquivo do que ativar e iniciar o serviço: 
 
 sudo systemctl enable kestrel-<app\_nome>.service
