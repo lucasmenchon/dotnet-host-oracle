@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programing\\.NET\\webapp\\webapp.csproj": {}
+    "C:\\Users\\Lucas\\source\\repos\\webapp\\webapp.csproj": {}
   },
   "projects": {
-    "D:\\Programing\\.NET\\webapp\\webapp.csproj": {
+    "C:\\Users\\Lucas\\source\\repos\\webapp\\webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programing\\.NET\\webapp\\webapp.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\source\\repos\\webapp\\webapp.csproj",
         "projectName": "webapp",
-        "projectPath": "D:\\Programing\\.NET\\webapp\\webapp.csproj",
+        "projectPath": "C:\\Users\\Lucas\\source\\repos\\webapp\\webapp.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\Programing\\.NET\\webapp\\obj\\",
+        "outputPath": "C:\\Users\\Lucas\\source\\repos\\webapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
