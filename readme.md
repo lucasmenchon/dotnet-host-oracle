@@ -1,4 +1,5 @@
-Estou hospedando o site na Oracle Cloud e você pode acessar ele. O Domínio é este https://tilucas.com/
+Parei com este projeto, estou dando andamento em novos projetos, mais complexos. Meu novo site é https:/luccas.dev
+Estou desenvolvendo novos projetos e vou hospedar na Oracle Cloud.
 
 Este é um app web feito com aspnet core para exemplo, e como consegui realizar deploy dele na Oracle Cloud com Nginx.
 
