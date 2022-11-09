@@ -1,4 +1,4 @@
-Parei com este projeto, estou dando andamento em novos projetos, mais complexos. Meu novo site é https:/luccas.dev
+Parei com este projeto, estou dando andamento em novos projetos, mais complexos. Meu novo site é <a href="https://luccas.dev">https:/luccas.dev</a>
 Estou desenvolvendo novos projetos e vou hospedar na Oracle Cloud.
 
 Este é um app web feito com aspnet core para exemplo, e como consegui realizar deploy dele na Oracle Cloud com Nginx.
